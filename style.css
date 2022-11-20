@@ -1,0 +1,35 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li a {
+  text-align: center;
+  padding: 12px;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.my-links {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+
+}
+
+.link {
+  float: left;
+}
+
+li a img {
+  height: 35px;
+  width: auto;
+  transition: height 0.15s;
+}
+
+li a img:hover {
+  height: 50px;
+}
