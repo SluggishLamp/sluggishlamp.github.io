@@ -1,23 +1,52 @@
+body {
+  background-color: lightblue;
+}
+
+header {
+  text-align: center;
+  margin: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 6cm;
+  background-color: rgb(207, 198, 198);
+  font-family:'Courier New', Courier, monospace;
+}
+
+header:hover {
+  background-color: lightgray;
+  font-size: large;
+  border: 2px solid black;
+}
+
 ul {
   list-style-type: none;
-  margin: 0;
+  margin: 20px;
   padding: 0;
   overflow: hidden;
-  background-color: white;
+  border-radius: 20px;
+  background-color: lightgray;
+}
+
+ul:hover {
+  background-color: rgb(207, 198, 198);
+  border: 2px solid black;
 }
 
 li a {
   text-align: center;
-  padding: 12px;
-  margin: 10px;
+  padding: 20px;
+  margin: 20px;
   text-decoration: none;
 }
 
 .my-links {
   position: absolute;
-  bottom: 10px;
-  left: 10px;
-
+  bottom: 20px;
+  left: 20px;
+  padding-top:20px;
+  padding-bottom:20px;
+  padding-left:0px;
+  margin-left: 550px;
 }
 
 .link {
@@ -25,11 +54,12 @@ li a {
 }
 
 li a img {
-  height: 35px;
+  height: 50px;
   width: auto;
   transition: height 0.15s;
 }
 
 li a img:hover {
-  height: 50px;
+  transform:scale(1.25);
+  transition: 0.15s;
 }
